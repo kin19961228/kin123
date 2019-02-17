@@ -60,6 +60,7 @@ export default {
         this.list=res.data
         this.checklist=[];
         this.listid=[];
+        console.log(this.checklist)
         for(var p of res.data){
           if(p.selected==1){
             p.selected=true;
